@@ -1,0 +1,140 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+    /* border: 1px solid red; */
+    
+}
+
+html {
+    height: 100%;
+}
+
+/* Header */
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #505050;
+    background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(152,251,152,1));
+    border-bottom: 1px solid #98FB98;
+    padding: 1vh;
+}
+
+/* End Header */
+
+
+/* BG */
+img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 70%;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-size: cover;
+}
+
+/* End BG */
+
+
+/* Form */
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #505050;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    border-bottom: 1px solid #98FB98;
+    padding: 1vh;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .75);
+    font-weight: 600;
+    width: 10vw;
+    line-height: 2;
+    border-radius: 10px;
+    padding: .2vw;
+}
+
+#login{
+    background-color: #98FB98;
+    color: #505050;
+    font-weight: 600;
+    font-size: large;
+    line-height: 2;
+    width: 11vw;
+    border-radius: 10px;
+    padding: .5vh;
+    border: 1px solid #98FB98;
+}
+
+.formField{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #505050;
+}
+
+.login{
+    margin-top: 5vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #505050;
+}
+
+
+input{
+    border-radius: 10px;
+    padding: 1vh 5vw;
+    margin-bottom: 5px;
+}
+
+/* End Form */
+
+
+/* Item Cards */
+
+.shop, .cart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.list-group{
+    width: fit-content;
+    margin: auto;
+    list-style: none;
+}
+
+.grid-item{
+    text-align: center;
+    font-size: 3vh;
+    border-radius: 1vh;
+    border: 1px solid #98FB98;
+    margin: .1vh;
+    padding: .5vw;
+    background-color:rgba(255,255,255, 0.4); 
+}
+
+button{
+    background-color: #98FB98;
+    color: #505050;
+    font-weight: 600;
+    font-size: large;
+    line-height: 2;
+    width: 10vw;
+    border-radius: 10px;
+    padding: .5vh;
+    margin: .3vh;
+    border: 1px solid #98FB98;
+}
+
+/* End Item Cards */
+
+#nothing{
+    width: 40%;
+    margin-left: 40vw;
+    font-size: medium;
+}
